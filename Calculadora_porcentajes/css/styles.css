@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-color: ;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 50px;
+    background-color:#151515;
+    color: #B4A5A5;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.porcentajes{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.porcentajes_container{
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px #3C415C;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+
+.porcentajes_container input{
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 6px;
+    background-color:#151515;
+    color:#B4A5A5;
+    box-shadow: 2px 2px 5px #3C415C;
+}
+
+.porcentajes_container--button{
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    height: 30px;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+
+.porcentajes_container--button:hover {
+    color: #B4A5A5;
+    background-color: #151515;
+  }
+
+.porcentajes_container div{
+    margin: 10px;
+    height: 50px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .porcentajes {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      width: 100€;
+    }
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Descuentos</title>
+    <script src="scripts/descuentos.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Calculadora de porcentajes</h1>
+    </header>
+
+    <div class="porcentajes">
+    <!--Porcentajes-->
+        <section class="porcentajes_container">
+            <h2> Calcula el precio final a pagar</h2>
+            <label for="Inputprecio">Digita los valores solicitados</label>
+                <input id="Inputprecio" type="number" placeholder="Precio.."/>
+                <input id="Inputdescuento" type="number" placeholder="Descuento .."/> 
+            </label>
+            <button type="button" class="porcentajes_container--button" onclick="CalcularResultado()">Calcular porcentaje</button>
+            <div class="respuesta"></div>
+         </section>
+    </div>
+</body>
+</html>
