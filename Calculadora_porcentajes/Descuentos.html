@@ -22,9 +22,12 @@
             <label for="Inputprecio">Digita los valores solicitados</label>
                 <input id="Inputprecio" type="number" placeholder="Precio.."/>
                 <input id="Inputdescuento" type="number" placeholder="Descuento .."/> 
-            </label>
-            <button type="button" class="porcentajes_container--button" onclick="CalcularResultado()">Calcular porcentaje</button>
+                <label for="Inputcupon">Si tiene un cupon, por digitelo aqui</label>
+                <input id="Inputcupon" type="text" placeholder="Cupon .."/> 
+                
+            <button type="button" class="porcentajes_container--button" onclick="CalcularResultado()">Calcular precio</button>
             <div class="respuesta"></div>
+            <div class="descupon"></div>
          </section>
     </div>
 </body>

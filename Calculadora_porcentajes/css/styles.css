@@ -27,8 +27,8 @@ body{
     flex-direction: column;
     box-shadow: 2px 2px 5px #3C415C;
     align-items: center;
-    justify-content: space-between;
-    height: 500px;
+    justify-content: space-around;
+    height: 520px;
     width: 450px;
     border-radius: 20px;
     
@@ -61,9 +61,9 @@ body{
   }
 
 .porcentajes_container div{
-    margin: 10px;
-    height: 50px;
-    padding: 20px;
+    
+    height: 30px;
+    padding: 5px;
     display:flex;
     align-items: center;
     justify-content: space-around;
