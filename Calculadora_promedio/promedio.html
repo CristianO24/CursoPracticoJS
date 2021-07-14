@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <script src="scripts/promedio.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Calculadora de promedio, media y mediana</h1>
+    </header>
+
+    <div class="promedio">
+    <!--Cuadrado-->
+        <section class="promedio_container">
+            <h2> Calcula de promedio, para una lista de datos.</h2>
+            <label for="InputPromedio">Digita la cantidad de datos</label>
+                <input id="InputDatos" type="number" placeholder="Datos .."/> 
+            </label>
+            <button type="button" class="promedio_container--button" onclick="addInput()">Numero de datos</button>
+            <form id="addInputs"></form>
+            <button type="button" class="promedio_container--button" onclick="CalculaPromedio()">Calcular promedio</button>
+            <div class="promedio_respuesta"></div>
+         </section>      
+   
+    <!--Triangulo
+        <section class="promedio_container">
+            <img src="https://img.icons8.com/carbon-copy/100/000000/triangle.png"/>
+             <h2> Calcula el area y perimetro de un triangulo</h2>
+            <label for="InputTriangulo">Digita los datos del triangulo </label>
+                <input id="InputLado1" type="number" placeholder="Lado 1 .."/> 
+                <input id="InputLado2" type="number" placeholder="Lado 2 .."/>
+                <input id="Base" type="number" placeholder="Base">
+                <input id="Inputaltura" type="number" placeholder="Altura"/>
+            </label>
+            <button type="button" class="figuras_container--button" onclick="CalcularAreaTriangulo()">Calcular el area</button>
+            <button type="button" class="figuras_container--button" onclick="CalcularPerimetroTriangulo()">Calcular el perimetro</button>
+            <div class="Triangulo_respuesta"></div>
+        </section>
+
+    Circulo
+    <section class="promedio_container">
+        <img src="https://img.icons8.com/ios/100/000000/0-percents.png"/>
+        <h2> Calcula el area, perimetro y diametro de un circulo</h2>
+       <label for="InputCirculo">Digita los datos del circulo </label>
+           <input id="Inputradio" type="number" placeholder="Radio .."/> 
+        </label>
+       <button type="button" class="figuras_container--button" onclick="CalcularAreaCirculo()">Calcular el area</button>
+       <button type="button" class="figuras_container--button" onclick="CalcularPerimetroCirculo()">Calcular el perimetro</button>
+       <button type="button" class="figuras_container--button" onclick="CalcularDiametroCirculo()">Calcular el diametro</button>
+       <div class="Circulo_respuesta"></div>
+   </section>-->
+    </div>
+</body>
+</html>

@@ -15,17 +15,21 @@ body{
     margin: 50px;
 }
 
-.figuras{
+.promedio{
     display:flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.figuras h2{
+.promedio h2{
     text-align: center;
 }
 
-.figuras_container{
+.promedio form {
+    margin: 10px 50px;
+}
+
+.promedio_container{
     padding: 15px;
     display:flex;
     flex-direction: column;
@@ -38,7 +42,7 @@ body{
     
 }
 
-.figuras_container input{
+.promedio_container input{
     font-family: "Josefin Sans", sans-serif;
     border-radius: 5px;
     font-size: 16px;
@@ -46,7 +50,7 @@ body{
     background-color:#f9f7ef;
 }
 
-.figuras_container--button{
+.promedio_container--button{
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
@@ -57,12 +61,12 @@ body{
     margin: 5px 0px;
 }
 
-.figuras_container--button:hover {
+.promedio_container--button:hover {
     color: white;
     background-color: black;
   }
 
-.figuras_container div{
+.promedio_container div{
     margin: 10px;
     height: 50px;
     padding: 20px;
