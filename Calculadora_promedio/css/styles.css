@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body{
-    margin: 0px;
-    background-color: ;
+    margin: 0px;    
     font-family: "Josefin Sans", sans-serif;
     padding: 50px;
     background-color:#f9f7ef;
@@ -26,7 +25,7 @@ body{
 }
 
 .promedio form {
-    margin: 10px 50px;
+    
 }
 
 .promedio_container{
@@ -76,7 +75,7 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    .figuras {
+    .promedio_container {
       background-color: transparent;
       border: none;
       padding: 0;
