@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promedio</title>
     <script src="scripts/promedio.js"></script>
+    <script src="scripts/mediana.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <h1>Calculadora de promedio, media y mediana</h1>
     </header>
 
-    <div class="promedio">g
+    <div class="promedio">
     <!--promedio-->
         <section class="promedio_container">
             <h2> Calcula el promedio, para una lista de datos.</h2>
@@ -31,13 +33,13 @@
     <!--Triangulo-->
         <section class="promedio_container">
             <h2> Calcula la mediana, para una lista de datos.</h2>
-            <label for="InputPromedio">Digita la cantidad de datos</label>
-                <input id="InputDatos" type="number" placeholder="Datos .."/> 
+            <label for="Inputmediana">Digita la cantidad de datos</label>
+                <input id="InputDatos2" type="number" placeholder="Datos .."/> 
             </label>
-            <button type="button" class="promedio_container--button" onclick="addInput()">Numero de datos</button>
-            <form id="addInputs"></form>
-            <button type="button" class="promedio_container--button" onclick="RespuestaPromedio()">Calcular promedio</button>
-            <div class="promedio_respuesta"></div>
+            <button type="button" class="promedio_container--button" onclick="addInput2()">Numero de datos</button>
+            <form id="addInputs2"></form>
+            <button type="button" class="promedio_container--button" onclick="RespuestaMediana()">Calcular mediana</button>
+            <div class="mediana_respuesta"></div>
          </section>     
 
     <!--Circulo

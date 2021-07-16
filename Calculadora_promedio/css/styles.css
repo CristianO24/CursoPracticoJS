@@ -2,7 +2,8 @@
 
 body{
     margin: 0px;    
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
     padding: 50px;
     background-color:#f9f7ef;
 }
@@ -22,14 +23,13 @@ body{
 
 .promedio h2{
     text-align: center;
+    font-size: 18px;
 }
 
-.promedio form {
-    
-}
 
 .promedio_container{
     padding: 15px;
+    font-size: 16px;
     display:flex;
     flex-direction: column;
     box-shadow: 2px 2px 5px #999;
@@ -42,9 +42,9 @@ body{
 }
 
 .promedio_container input{
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Chelsea Market', cursive;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 6px;
     background-color:#f9f7ef;
 }
@@ -52,9 +52,9 @@ body{
 .promedio_container--button{
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Chelsea Market', cursive;
     height: 30px;
     letter-spacing: 1px;
     margin: 5px 0px;
