@@ -42,22 +42,21 @@ function datosUsuario2 () {
 function CalculaMediana(){
     lista1 = [];
     datosUsuario2();
-    
-    let total = 0;
 
-    const mitad = parseInt(lista1.length)
+    let Cantdatos = parseInt(lista1.length/2);
+    let mediana;
 
-
-    for (let i = 0; i < lista1.length; i++){
-        total = total + lista1[i];
+    if (Cantdatos % 2 === 0){
+        mediana = ((lista1[Cantdatos]+lista1[Cantdatos-1])/2)
     }
-    
-    const promedio = (total/lista1.length);    
-    return promedio;
+    else{   
+        mediana = (lista1[Cantdatos]);        
+    }    
+    return mediana;    
 }
 
 function RespuestaMediana(){
    const result = document.querySelector(".mediana_respuesta");
-   const promedio = CalculaMediana();
-   result.innerHTML = `La mediana es : ${promedio}`;
+   const mediana = CalculaMediana();
+   result.innerHTML = `La mediana es : ${mediana}`;
 }
