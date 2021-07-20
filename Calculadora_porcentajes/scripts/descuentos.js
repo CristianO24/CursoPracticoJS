@@ -27,7 +27,7 @@ function Calcularcupon(cupon){
 const userCoupon = adescuento.find(isCouponValueValid);
 
   if (!userCoupon) {
-    alert("El cupón " + cupon + "no es válido");
+    alert("El cupón " + cupon + " no es válido");
     const descuento = 0;
     return descuento;
 
