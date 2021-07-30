@@ -38,25 +38,36 @@ function datosUsuario3() {
     }
 }
 
-//Calcular promedio con el array lleno
+//Calcular moda con el array lleno
 function CalculaModa(){
     lista2 = [];
     datosUsuario3();
 
-    let Cantdatos = parseInt(lista2.length/2);
-    let mediana;
+    lista2Count = {};
 
-    if (Cantdatos % 2 === 0){
-        mediana = (lista2[Cantdatos]);
-    }
-    else{   
-        mediana = ((lista2[Cantdatos]+lista2[Cantdatos-1])/2)
-    }    
-    return mediana;    
+    lista2.map(
+        function(elemento){
+            if (lista2Count[elemento]){
+                lista2Count[elemento] += 1;
+            }
+            else{   
+                lista2Count[elemento] = 1;
+            }    
+        }
+    ); 
+
+    const Lista2Array = Object.entries(lista2Count).sort(
+        function (elemento1, elemento2){
+            elemento1[1] - elemento2[1];
+        }
+    );
+
+    const moda = Lista2Array[Lista2Array.length -1];
+    return Lista2Array;
 }
 
 function RespuestaModa(){
    const result = document.querySelector(".moda_respuesta");
    const moda = CalculaModa();
-   result.innerHTML = `La moda es : ${moda}`;
+   result.innerHTML = `La moda es : ${moda[0]}`;
 }

@@ -38,7 +38,7 @@ function datosUsuario2 () {
     }
 }
 
-//Calcular promedio con el array lleno
+//Calcular mediana con el array lleno
 function CalculaMediana(){
     lista1 = [];
     datosUsuario2();
