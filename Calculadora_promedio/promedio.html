@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <script src="scripts/promedio.js"></script>
+    <script src="scripts/mediana.js"></script>
+    <script src="scripts/moda.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Calculadora de promedio, media y mediana</h1>
+    </header>
+
+    <div class="promedio">
+    <!--Promedio-->
+        <section class="promedio_container">
+            <h2> Calcula el promedio, para una lista de datos.</h2>
+            <label for="InputPromedio">Digita la cantidad de datos</label>
+                <input id="InputDatos" type="number" placeholder="Datos .."/> 
+            </label>
+            <button type="button" class="promedio_container--button" onclick="addInput()">Numero de datos</button>
+            <form id="addInputs"></form>
+            <button type="button" class="promedio_container--button" onclick="RespuestaPromedio()">Calcular promedio</button>
+            <div class="promedio_respuesta"></div>
+         </section>      
+   
+    <!--Mediana-->
+        <section class="promedio_container">
+            <h2> Calcula la mediana, para una lista de datos.</h2>
+            <label for="Inputmediana">Digita la cantidad de datos</label>
+                <input id="InputDatos2" type="number" placeholder="Datos .."/> 
+            </label>
+            <button type="button" class="promedio_container--button" onclick="addInput2()">Numero de datos</button>
+            <form id="addInputs2"></form>
+            <button type="button" class="promedio_container--button" onclick="RespuestaMediana()">Calcular mediana</button>
+            <div class="mediana_respuesta"></div>
+         </section>     
+
+    <!--Moda-->
+    <section class="promedio_container">
+        <h2> Calcula la moda, para una lista de datos.</h2>
+        <label for="Inputmoda">Digita la cantidad de datos</label>
+            <input id="InputDatos3" type="number" placeholder="Datos .."/> 
+        </label>
+        <button type="button" class="promedio_container--button" onclick="addInput3()">Numero de datos</button>
+        <form id="addInputs3"></form>
+        <button type="button" class="promedio_container--button" onclick="RespuestaModa()">Calcular moda</button>
+        <div class="moda_respuesta"></div>
+     </section>     
+    </div>
+</body>
+</html>

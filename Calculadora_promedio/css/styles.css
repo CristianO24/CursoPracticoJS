@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 body{
-    margin: 0px;
-    background-color: ;
-    font-family: "Josefin Sans", sans-serif;
+    margin: 0px;    
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
     padding: 50px;
     background-color:#f9f7ef;
 }
@@ -15,18 +15,21 @@ body{
     margin: 50px;
 }
 
-.figuras{
+.promedio{
     display:flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.figuras h2{
+.promedio h2{
     text-align: center;
+    font-size: 18px;
 }
 
-.figuras_container{
+
+.promedio_container{
     padding: 15px;
+    font-size: 16px;
     display:flex;
     flex-direction: column;
     box-shadow: 2px 2px 5px #999;
@@ -38,31 +41,31 @@ body{
     
 }
 
-.figuras_container input{
-    font-family: "Josefin Sans", sans-serif;
+.promedio_container input{
+    font-family: 'Chelsea Market', cursive;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 6px;
     background-color:#f9f7ef;
 }
 
-.figuras_container--button{
+.promedio_container--button{
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Chelsea Market', cursive;
     height: 30px;
     letter-spacing: 1px;
     margin: 5px 0px;
 }
 
-.figuras_container--button:hover {
+.promedio_container--button:hover {
     color: white;
     background-color: black;
   }
 
-.figuras_container div{
+.promedio_container div{
     margin: 10px;
     height: 50px;
     padding: 20px;
@@ -72,7 +75,7 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    .figuras {
+    .promedio_container {
       background-color: transparent;
       border: none;
       padding: 0;
