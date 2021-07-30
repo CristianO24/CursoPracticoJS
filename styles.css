@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;    
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+    padding: 50px;
+    background-color:#DDDDDD;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu h2{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.menu_container{
+    padding: 15px;
+    font-size: 16px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px #999;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    align-self: auto;
+    
+}
+
+.menu_container--button{
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Chelsea Market', cursive;
+    height: 30px;
+    width: 300px;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+}
+
+.menu_container--button:hover {
+    color: white;
+    background-color: black;
+  }
+
+.menu_container_botones{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu_container {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      width: 100€;
+    }
+  }
