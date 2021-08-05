@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <title>Descuentos</title>
+    <title>Salarios</title>
     <script src="scripts/salarios.js"></script>
+    <script src="scripts/Array.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
-        <h1>Calculadora de porcentajes</h1>
+        <h1>Calculadora de salarios</h1>
     </header>
 
     <div class="salarios">
     <!--Porcentajes-->
         <section class="salarios_container">
             <h2> Calcula el precio final a pagar</h2>
-            <label for="Inputprecio">Digita los valores solicitados</label>
-                <input id="Inputprecio" type="number" placeholder="Precio.."/>
-                <input id="Inputdescuento" type="number" placeholder="Descuento .."/> 
-                <label for="Inputcupon">Si tiene un cupon, por digitelo aqui</label>
-                <input id="Inputcupon" type="text" placeholder="Cupon .."/> 
-                
-            <button type="button" class="salarios_container--button" onclick="CalcularResultado()">Calcular precio</button>
-            <div class="respuesta"></div>
+                    <label for="Inputprecio">Digita los valores solicitados</label>
+                    <input id="InputNombre" type="text" placeholder="Nombre .." required/> 
+                    <input id="InputSalario" type="number" placeholder="Salario.." required/>                                           
+                    <label class="mostrarPersona"></label>
+                    <button type="button" class="salarios_container--button" onclick="LlenarArray()">Ingresar valor</button>
+                    <button type="button" class="salarios_container--button" onclick="RespuestaMediana1()">Calcular Mediana</button>
+                    <div class="valores"></div>
+                    <div class="mediana_respuesta1"></div>
             <div class="descupon"></div>
          </section>
     </div>
