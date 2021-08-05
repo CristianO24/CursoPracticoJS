@@ -1,24 +1,15 @@
 @charset "UTF-8";
 
-body{
-    margin: 0px;
-    font-family: "Josefin Sans", sans-serif;
-    padding: 50px;
-    background-color:#151515;
-    color: #B4A5A5;
-}
 
-.header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
-}
 
 .salarios{
     display:flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.salarios h2 h4{
+    margin-top: 30px;    
 }
 
 .salarios_container{
@@ -28,31 +19,37 @@ body{
     box-shadow: 2px 2px 5px #3C415C;
     align-items: center;
     justify-content: space-around;
-    height: 520px;
+    height: 550px;
     width: 450px;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 
 .salarios_container input{
     font-family: "Josefin Sans", sans-serif;
     border-radius: 5px;
     font-size: 16px;
-    margin: 6px;
+    margin: 5px 0px;
     background-color:#151515;
     color:#B4A5A5;
     box-shadow: 2px 2px 5px #3C415C;
 }
 
+.salarios_botones{
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+
 .salarios_container--button{
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-    height: 30px;
+    font-family: "Josefin Sans", sans-serif;    
     letter-spacing: 1px;
-    margin: 5px 0px;
+    margin: 8px 0px;
+    width: 200px;
 }
 
 .salarios_container--button:hover {
@@ -60,15 +57,13 @@ body{
     background-color: #151515;
   }
 
-.salarios_container div{
-    
+.salarios_container div{    
     height: 30px;
     padding: 5px;
     display:flex;
     align-items: center;
     justify-content: space-around;
     font-size: 18px;
-
 }
 
 @media only screen and (max-width: 600px) {

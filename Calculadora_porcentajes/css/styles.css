@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-body{
-    margin: 0px;
-    font-family: "Josefin Sans", sans-serif;
-    padding: 50px;
-    background-color:#151515;
-    color: #B4A5A5;
-}
-
-.header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
-}
-
 .porcentajes{
     display:flex;
     align-items: center;

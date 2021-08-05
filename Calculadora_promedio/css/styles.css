@@ -8,13 +8,6 @@ body{
     background-color:#f9f7ef;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
-}
-
 .promedio{
     display:flex;
     align-items: center;
